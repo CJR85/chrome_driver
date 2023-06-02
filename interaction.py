@@ -10,4 +10,7 @@ driver.get("https://en.wikipedia.org/wiki/Main_Page")
 # print(article_count.text)
 
 count = driver.find_element(By.CSS_SELECTOR, value="#articlecount a")
-print(count.text)
+# print(count.text)
+
+# all_portals = driver.find_element_by_link_text("All portals")
+# all_portals.click()
